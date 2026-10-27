@@ -1,0 +1,22 @@
+{
+  "name": "visual-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Command-line tools that let a coding agent see what it builds: screenshots at many widths and themes, filmstrips of animations, contact sheets, and visual diffs",
+  "type": "module",
+  "bin": {
+    "vt": "vt.mjs"
+  },
+  "scripts": {
+    "vt": "node vt.mjs",
+    "test": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pixelmatch": "^7.1.0",
+    "playwright-core": "^1.63.0",
+    "pngjs": "^7.0.0"
+  }
+}
